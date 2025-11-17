@@ -1,5 +1,8 @@
 abstract class Media {
-  constructor(public title: string, public dateCreated: Number) {}
+  constructor(
+    public title: string, 
+    public dateCreated: Number
+) {}
 }
 
 class Book extends Media {}
